@@ -3,7 +3,10 @@
   padding: 0;
   box-sizing: border-box;
   width: 100%;
-  font-family: 'Roboto';
+  font-family: 'Roboto',sans-serif;;
+}
+html {
+  scroll-behavior: smooth;
 }
 
 body{
@@ -14,18 +17,49 @@ margin: auto;
 
 }
 
-.wrapper {
-  min-height: 100%;
-  overflow: hidden;
-}
-.cover {
-position: fixed;
-max-width: 1219px;
 
-  padding-top: 15px;
-  padding-bottom: 35px;
-  background: #007765 url("logo.png") no-repeat 5%;
+.header_container {
+  display: flex;
+  align-items: center;
+  
+  background-color: #007765;
+  position: fixed;
+  width: 1219px;
+
+
+  
 }
+
+.logo_img {
+  width: 192px;
+  height: 53px;
+  margin: 10px 0px 10px 35px;
+
+}
+
+.header_menu {
+  margin: 0px 0px 0px 350px;
+}
+.menu_list {
+display:flex;
+list-style-type: none;
+font-size: 24px;
+
+
+}
+
+.menu_link {
+
+  color: #FFFFFF;
+  }
+
+a {
+  text-decoration: none;
+}
+
+
+
+
 
 .info {
   text-align: right;
@@ -48,6 +82,7 @@ max-width: 1219px;
 }
 
 .problem {
+  padding-top:76px;
   background-color: #EEEEEE;
   padding-left:55px; 
   padding-right: 55px;
@@ -81,6 +116,7 @@ p {
   text-align: center;
   padding-top: 90px;
   padding-bottom: 110px;
+
 }
 
 .end {
@@ -106,6 +142,7 @@ color:#FFFFFF ;
 }
 
 .introduce {
+  padding-top:76px;
   padding-left:55px; 
   padding-right: 55px;
   padding-bottom: 55px;
@@ -131,6 +168,7 @@ margin: 4px 50px 5px 0px;
 }
 
 .team {
+  padding-top:76px;
   background-color:#EEEEEE ;
   padding-bottom: 40px;
 }

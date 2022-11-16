@@ -4,24 +4,37 @@
  	<meta charset="utf-8">
  	<meta name="viewport" content="width=device-width, initial-scale=1">
  	<link rel="stylesheet" type="text/css" href="style.css">
+    <!--<link rel="stylesheet" href="normalize.css">-->
  	<title>Pied Piper Landing Page</title>
  </head>
 
  <body>
- <header>
-    <div class="wrapper">
- 		<div class="cover">
- 			<div class="info"> 
-                the problem
-             | PiedPiperCoin
-             | the team</div>
- 		</div>
- </header>
+ <header class="header">
+    <div class="header_container">
+        <a href="#Header_cite" class="header_logo">
+            <img  class="logo_img" src="logo.png">
+        </a>
+
+        <nav class="header_menu">
+            <ul class="menu_list">
+                <li class="menu_item">
+                    <a href="#problem" class="menu_link">the problem</a>
+                </li>
+                    <li class="menu_item">
+                    <a href="#coin" class="menu_link">|PiedPiperCoin</a>
+                </li>   
+                    <li class="menu_item">
+                    <a href="#team" class="menu_link">| the team</a>
+                </li>
+            </ul>
+        </nav>  
+    </div>
+</header>
  	<main>
-        <section class="name"> 
+        <section id="Header_cite" class="name"> 
         PiperNet is Here</section>
-        <section class="problem">
-            <h1>The Problem</h1>
+        <section id="problem" class="problem">
+            <h1 >The Problem</h1>
             <p>Beneath the flashy homepages of your favorite sites lurk Hooli™ and other evil corporations out to hoard and sell your most personal data. </p>
 <br>
 <p>What was built to be the ultimate platform for the free sharing of knowledge has turned into a money-hungry monster feasting on our privacy and freedom.</p>
@@ -36,9 +49,9 @@ An autonomous peer-to-peer network featuring distributed storage powered by univ
        <h2 class="lozung">We’re in this together! All of our computers and phones join in a network to make the strongest supercomputer the world has ever seen.</h2>     
         </section>	
         
-        <section class="introduce">
+        <section id="coin" class="introduce">
            
-            <h2 class="story">Introducing PiedPiperCoin</h2>
+            <h2  class="story">Introducing PiedPiperCoin</h2>
                 <img class="ppc" src="PPC Logo.png">
                     <p class="more">Pied Piper's new internet is built for users, by users.
 You supply the storage, compute, and networking resources that power our entire decentralized web.</p>
@@ -51,7 +64,7 @@ The more you share your device resources, the more PiedPiperCoin you receive.
 
         </section>   
 
-        <section class="team">
+        <section id="team" class="team">
             <h2 class="main_team">The Team</h2>
                <div class="container">
                
